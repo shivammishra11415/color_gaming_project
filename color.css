@@ -1,0 +1,72 @@
+body{
+    background: #232323;
+    margin: 0;
+    font-family: "Avenir";
+    font-weight: normal;
+   
+}
+
+:root{
+    --bgcolor:steelblue;
+}
+reset:hover{
+    background-color: var(--bgcolor);
+}
+
+.square{
+    width :30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    transition:background .3s;
+}
+#container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.align{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    background-color: steelblue;
+    margin: 0;
+    font-weight: normal;
+    padding: 20px 0;
+    
+}
+#stripe{
+    height: 30px;
+    background:white;
+   margin-bottom: 20px;
+   text-align: center;
+   text-transform: uppercase;
+
+}
+#answer{
+    color:black;
+    display: inline-block;
+    width: 20%;
+   
+}
+.selected{
+    background-color: var(--bgcolor);
+    color: white;
+}
+button{
+   border: none; 
+   background-color: white;
+   height: 100%;
+   color: steelblue;
+   transition: all 0.2s;
+   text-transform: uppercase;
+   outline: none;
+}
+button:hover{
+    background-color:  var(--bgcolor);
+    color:white;
+}
+#main{
+    font-size: 60px;
+}
