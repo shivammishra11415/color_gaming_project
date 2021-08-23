@@ -127,7 +127,7 @@ function checking_condition() {
                 change_color_on_right_answer();
             }   
             else {
-                answer_board.textContent = "yash gand fat gai kya";
+                answer_board.textContent = "wrong answer";
                 this.style.background="#232323";
             }
         });
@@ -136,7 +136,7 @@ function checking_condition() {
 
 ////////////////////////////////////////////
 function change_color_on_right_answer() {
-    answer_board.textContent = "siddhant bosdka ";
+    answer_board.textContent = "right answer ";
     reset.textContent = "Play Again ?";
     h1.style.background = pickedcolor;
     for (var i = 0; i < colors.length; i++)
